@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e2433;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #708090;
+    padding: 40px 20px; /* Changed to 20px to match the form-group margin-bottom */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: #45b6fe;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="email"] {
+    width: 400px;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #0e2433;
+    text-align: left;
+}
+
+   input[type="submit"] {
+    background-color: #45b6fe;
+    color: white;
+    border: Black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+     margin: 10px;
+}
+
+
+/* input[type="submit"].Register-button {
+    background-color: #45b6fe; Different color for Register button
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"].login-button {
+    background-color: #3cb371; Different color for Login button
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+
+button:hover {
+    background-color: #369fdc;
+}
+
+.message {
+	 background-color: #45b6fe;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
